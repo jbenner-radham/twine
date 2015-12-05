@@ -26,23 +26,15 @@ $ composer require :vendor/:package_name
 \RadHam\Twine::factory('Hello World')->remove('World')->trim()->printLn();
 ```
 
-## Change Log
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
 ## Testing
 
 ``` bash
 $ composer test
 ```
 
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details.
-
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (Expat). Please see the [license file](LICENSE.md) for details.
 
 [img-license]: https://img.shields.io/github/license/jbenner-radham/twine.svg
 [img-version]: https://img.shields.io/packagist/v/:vendor/:package_name.svg
@@ -55,5 +47,4 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-travis]: https://travis-ci.org/:vendor/:package_name
 [link-scrutinizer]: https://scrutinizer-ci.com/g/:vendor/:package_name/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/:vendor/:package_name
-[link-downloads]: https://packagist.org/packages/:vendor/:package_name
 [link-author]: https://github.com/:author_username

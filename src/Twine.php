@@ -5,13 +5,16 @@ namespace RadHam;
 class Twine
 {
     /**
-     * [$_str description]
+     * Internal string storage for the object.
+     *
      * @var string
      */
     protected $_str;
 
     /**
-     * Create a new Twine instance
+     * Create a new Twine instance.
+     *
+     * @return void
      */
     public function __construct($str)
     {
@@ -19,9 +22,10 @@ class Twine
     }
 
     /**
-     * [__toString description]
-     * @return string [description]
-     * @link http://php.net/manual/en/language.oop5.magic.php#object.tostring
+     * Automatically called when cast to string.
+     *
+     * @link   http://php.net/manual/en/language.oop5.magic.php#object.tostring
+     * @return string
      */
     public function __toString()
     {
@@ -31,9 +35,8 @@ class Twine
     /**
      * Factory method yo!
      *
-     * @param string $str String to return
-     *
-     * @return string Returns the instantiated object
+     * @param  string $str String to return
+     * @return string      Returns the instantiated object
      */
     public static function factory($str)
     {
@@ -41,8 +44,9 @@ class Twine
     }
 
     /**
-     * [printLn description]
-     * @return [type] [description]
+     * Echo the string contents with an end of line character appended.
+     *
+     * @return $this
      */
     public function printLn()
     {
@@ -52,9 +56,10 @@ class Twine
     }
 
     /**
-     * [remove description]
-     * @param  [type] $context [description]
-     * @return [type]          [description]
+     * Remove the provided context from the string.
+     *
+     * @param  string $context
+     * @return $this
      */
     public function remove($context)
     {
@@ -64,10 +69,11 @@ class Twine
     }
 
     /**
-     * [replace description]
-     * @param  [type] $context     [description]
-     * @param  [type] $replacement [description]
-     * @return [type]              [description]
+     * Replace the provided context with the provided replacement.
+     *
+     * @param  string $context
+     * @param  string $replacement
+     * @return $this
      */
     public function replace($context, $replacement)
     {
@@ -78,8 +84,9 @@ class Twine
     }
 
     /**
-     * [trim description]
-     * @return [type] [description]
+     * Trim the string.
+     *
+     * @return $this
      */
     public function trim()
     {

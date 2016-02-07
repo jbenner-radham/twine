@@ -2,27 +2,18 @@
 > A simple PHP string handling library.
 
 [![License][img-license]](LICENSE.md)
-[![Latest Version on Packagist][img-version]][link-packagist]
-
-**Note:** Replace ```:author_name``` ```:author_username``` ```:author_website``` ```:author_email``` ```:vendor``` ```:package_name``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+~~[![Latest Version on Packagist][img-version]][link-packagist]~~
 
 ## Install
 
-Via Composer
+~~Via Composer...~~
 
-``` bash
-$ composer require :vendor/:package_name
-```
+Composer install support coming soon.
 
 ## Usage
 
 ``` php
-/**
- * Prints a `PHP_EOL` appended "Hello"
- */
+// Prints a `PHP_EOL` appended "Hello"
 \RadHam\Twine::factory('Hello World')->remove('World')->trim()->printLn();
 ```
 
